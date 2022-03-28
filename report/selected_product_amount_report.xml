@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_purchase_report_products_amount" model="ir.actions.report">
+            <field name="name">Products PDF Report</field>
+            <field name="model">report.abs_top_purchased_products.report_amount_purchase</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">abs_top_purchased_products.report_amount_purchase</field>
+            <field name="report_file">abs_top_purchased_products.report_amount_purchase</field>
+        </record>
+    </data>
+</odoo>
